@@ -1,0 +1,23 @@
+{
+  "userName": "GbSouza15",
+
+  "repositories": [
+    {
+      "name": "GITHUB API",
+      "url": "https://github.com/GbSouza15/github_api",
+      "deployedUrl": "https://github-api-mu.vercel.app/",
+      "img": "../../images/Captura de tela 2023-03-16 104904.png"
+    },
+    {
+      "name": "INTERACTIVE CARD",
+      "url": "https://github.com/GbSouza15/interactive-cards",
+      "deployedUrl": "https://interactive-cards.vercel.app/",
+      "img": "../../images/desktop-design.jpg"
+    },
+    {
+      "name": "WIKI API",
+      "url": "https://github.com/GbSouza15/API_WIKI",
+      "deployedUrl": "https://api-wiki.vercel.app/",
+      "img": "../../images/Captura de tela 2023-03-17 104941.png"
+    }]
+}
