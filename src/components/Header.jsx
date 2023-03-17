@@ -1,3 +1,5 @@
+import ImgHeader from '../../images/pexels-anni-roenkae-2693212.jpg'
+
 export function Header() {
     return (
             <div className='bg-[#000000] text-[#c981b6]'>
@@ -6,7 +8,7 @@ export function Header() {
                 <p className='text-center mt-[1.2rem]'>Frase de efeito para atrair pessoas</p>
                 </div>
                 <div className='img flex justify-center mt-[2.5rem]'>
-                    <img className='rounded-t-[3rem] w-[85%] h-[15rem] object-cover' src='../../images/pexels-anni-roenkae-2693212.jpg'/>
+                    <img className='rounded-t-[3rem] w-[85%] h-[15rem] object-cover' src={ImgHeader}/>
                 </div>
             </div>
     )
