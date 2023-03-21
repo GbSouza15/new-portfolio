@@ -6,7 +6,7 @@ import { Contact } from "./components/Contact&Footer.jsx";
 function App() {
 
   return (
-    <div className='bg-primaryColor font-roboto'>
+    <div className='bg-[#171717] font-roboto'>
         <Nav />
         <Header/>
         <BodyMain/>

@@ -23,7 +23,7 @@ export function Contact() {
             </div>
             <footer>
                 <div>
-                    <p className='text-center mt-[4rem] pb-[2rem] text-textColorSecondary'>© 2023 Gabriel Souza</p>
+                    <p className='text-center mt-[4rem] pb-[1rem] text-textColorSecondary'>© 2023 Gabriel Souza</p>
                 </div>
             </footer>
         </>
