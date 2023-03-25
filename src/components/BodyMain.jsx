@@ -49,7 +49,8 @@ export function BodyMain() {
                 gap-x-2
                 text-center
                 rounded-[.5rem]
-                max-[820px]:text-[1.5rem]'>
+                max-[820px]:text-[1.5rem]
+                max-[820px]:mx-[4rem]'>
 
                     <div className='
                     border-[1px]
