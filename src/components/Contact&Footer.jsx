@@ -15,7 +15,7 @@ export function Contact() {
                  mt-[2rem]'>
                     <h1 className='text-[1.5rem]
                     text-center
-                     mt-[1.8rem]'>Let's Discuss Your Ideas</h1>
+                     mt-[1.8rem] max-[820px]:text-[2rem]'>Let's Discuss Your Ideas</h1>
 
                     <ul className='flex
                     justify-center
@@ -24,7 +24,7 @@ export function Contact() {
                         <li className='
                         flex
                         gap-2
-                        items-center'>
+                        items-center max-[820px]:text-[1.4rem]'>
                             LinkedIn
                             <i className="
                             fa-brands
@@ -33,7 +33,7 @@ export function Contact() {
                         <li className='
                         flex
                         gap-2
-                        items-center'>
+                        items-center max-[820px]:text-[1.4rem]'>
                             GitHub
                             <i className="
                             fa-brands
@@ -42,7 +42,7 @@ export function Contact() {
                         <li className='
                         flex
                         gap-2
-                        items-center'>
+                        items-center max-[820px]:text-[1.4rem]'>
                             Email
                             <i className="
                             fa-solid

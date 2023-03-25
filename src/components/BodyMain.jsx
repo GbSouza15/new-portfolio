@@ -16,13 +16,15 @@ export function BodyMain() {
             <section className='
             animated-bar
             bg-textColorSecondary
-            py-[2rem]'>
+            py-[2rem]
+            max-[820px]:py-[3rem]'>
                 <p className='
                 animate-pulse
                 text-center
                 text-[1.8rem]
                 text-[#000000]
-                font-bold'>BRING YOUR IDEAS</p>
+                font-bold
+                max-[820px]:text-[3rem]'>BRING YOUR IDEAS</p>
             </section>
 
             <section className='
@@ -35,7 +37,8 @@ export function BodyMain() {
                 text-gray-400
                 text-[1.5rem]
                 text-center
-                mt-[2.5rem]'>MY SERVICES</p>
+                mt-[2.5rem]
+                max-[820px]:text-[2.5rem]'>MY SERVICES</p>
 
                 <div className='
                 flex
@@ -45,7 +48,8 @@ export function BodyMain() {
                 gap-y-5
                 gap-x-2
                 text-center
-                rounded-[.5rem]'>
+                rounded-[.5rem]
+                max-[820px]:text-[1.5rem]'>
 
                     <div className='
                     border-[1px]
@@ -125,7 +129,8 @@ export function BodyMain() {
                 <p className='
                 text-[1.5rem]
                 text-center
-                mt-[2.5rem]'>MY SKILLS</p>
+                mt-[2.5rem]
+                max-[820px]:text-[2.5rem]'>MY SKILLS</p>
 
                 <div className='flex
                 flex-col
@@ -134,7 +139,9 @@ export function BodyMain() {
                 gap-y-5
                 gap-x-2
                 text-center
-                rounded-[.5rem]'>
+                rounded-[.5rem]
+                max-[820px]:text-[1.5rem]
+                max-[820px]:mx-[4rem]'>
                     <div className='flex
                     p-[1.5rem]
                     border-[1px]
@@ -212,7 +219,9 @@ export function BodyMain() {
             text-textColorPrimary'>
                 <p className='
                 text-[1.5rem]
-                text-center'>MY PROJECTS</p>
+                text-center
+                max-[820px]:text-[2.5rem]
+                '>MY PROJECTS</p>
 
                 <ul className='
                 text-text-textColorPrimary
@@ -220,7 +229,9 @@ export function BodyMain() {
                 flex-col
                 mt-[2rem]
                 items-center
-                gap-y-5'>
+                gap-y-5
+                max-[820px]:text-[1.5rem]
+                '>
                     <li className='
                     flex
                     flex-col
@@ -229,7 +240,10 @@ export function BodyMain() {
                     bg-[#000000]
                     rounded-[.5rem]
                     p-[1rem]
-                    w-[22rem]'>
+
+                    w-[22rem]
+                    max-[820px]:w-[26rem]
+                    '>
                         <div className='
                         flex
                         items-center
@@ -239,7 +253,9 @@ export function BodyMain() {
                         </div>
                         <img className='
                         w-[20rem]
-                        rounded-[.5rem]' src={ImgGitApi}></img>
+                        rounded-[.5rem]
+                        max-[820px]:w-[30rem]
+                        ' src={ImgGitApi}></img>
                     </li>
                     <li className='
                     flex
@@ -249,7 +265,8 @@ export function BodyMain() {
                     bg-[#000000]
                     rounded-[.5rem]
                     p-[1rem]
-                    w-[22rem]'>
+                    w-[22rem]
+                    max-[820px]:w-[26rem]'>
                         <div className='
                         flex
                         items-center
@@ -260,7 +277,8 @@ export function BodyMain() {
                         </div>
                         <img className='
                         w-[20rem]
-                        rounded-[.5rem]' src={ImgCards}></img>
+                        rounded-[.5rem]
+                        max-[820px]:w-[30rem]' src={ImgCards}></img>
                     </li>
                     <li className='
                     flex
@@ -270,7 +288,8 @@ export function BodyMain() {
                     bg-[#000000]
                     rounded-[.5rem]
                     p-[1rem]
-                    w-[22rem]'>
+                    w-[22rem]
+                    max-[820px]:w-[26rem]'>
                         <div className='
                         flex
                         items-center
@@ -281,7 +300,8 @@ export function BodyMain() {
                         </div>
                         <img className='
                         w-[20rem]
-                        rounded-[.5rem]' src={ImgWiki}></img>
+                        rounded-[.5rem]
+                        max-[820px]:w-[30rem]' src={ImgWiki}></img>
                     </li>
                 </ul>
             </section>
@@ -293,19 +313,25 @@ export function BodyMain() {
                 <div className='mt-[6rem]'>
                     <p className='
                     text-[1.5rem]
-                    text-center'>About Me</p>
+                    text-center
+                    max-[820px]:text-[2.5rem]
+                    '>About Me</p>
                 </div>
 
                 <div className='
                 flex
                 justify-center
                 gap-[2rem]
-                mt-[2rem]'>
-                    <img src={imgLogo} className='w-[4rem] h-[4rem] rounded-[50%]'></img>
+                mt-[2rem]
+                max-[820px]:gap-[5rem]
+                max-[820px]:text-[1.3rem]
+                max-[820px]:mt-[3rem]'>
+                    <img src={imgLogo} className='w-[4rem] h-[4rem] rounded-[50%] max-[820px]:w-[8rem] max-[820px]:h-[8rem]'></img>
 
                     <div className='
                     text-justify
                     w-[12rem]
+                    max-[820px]:w-[20rem]
                     '>
                         <p>
                             Meu nome é <strong className='text-textColorSecondary'> Gabriel Souza </strong>e tenho 19 anos. Sou programador <strong className='text-textColorSecondary'> front-end</strong>, apaixonado por tecnologia.
