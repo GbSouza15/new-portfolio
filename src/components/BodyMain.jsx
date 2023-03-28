@@ -17,14 +17,14 @@ export function BodyMain() {
             animated-bar
             bg-textColorSecondary
             py-[2rem]
-            max-[820px]:py-[3rem]'>
+            min-[820px]:py-[3rem]'>
                 <p className='
                 animate-pulse
                 text-center
                 text-[1.8rem]
                 text-[#000000]
                 font-bold
-                max-[820px]:text-[3rem]'>BRING YOUR IDEAS</p>
+                min-[820px]:text-[2rem] min-[1024px]:text-[3rem]'>BRING YOUR IDEAS</p>
             </section>
 
             <section className='
@@ -38,7 +38,7 @@ export function BodyMain() {
                 text-[1.5rem]
                 text-center
                 mt-[2.5rem]
-                max-[820px]:text-[2.5rem]'>MY SERVICES</p>
+                min-[820px]:text-[2.5rem] min-[1024px]:text-[2.5rem]'>MY SERVICES</p>
 
                 <div className='
                 flex
@@ -60,10 +60,12 @@ export function BodyMain() {
                     items-center
                     justify-center
                     p-5
-                    gap-2'>
+                    gap-2
+                    '>
                         <i className="
                         fa-solid
-                        fa-globe"></i>
+                        fa-globe
+                        "></i>
                         <p>
                         Web Development
                         </p>
@@ -131,7 +133,7 @@ export function BodyMain() {
                 text-[1.5rem]
                 text-center
                 mt-[2.5rem]
-                max-[820px]:text-[2.5rem]'>MY SKILLS</p>
+                min-[820px]:text-[2.5rem] min-[1024px]:text-[2.5rem]'>MY SKILLS</p>
 
                 <div className='flex
                 flex-col
@@ -221,7 +223,8 @@ export function BodyMain() {
                 <p className='
                 text-[1.5rem]
                 text-center
-                max-[820px]:text-[2.5rem]
+                min-[820px]:text-[2.5rem]
+                min-[1024px]:text-[2.5rem]
                 '>MY PROJECTS</p>
 
                 <ul className='
@@ -315,7 +318,8 @@ export function BodyMain() {
                     <p className='
                     text-[1.5rem]
                     text-center
-                    max-[820px]:text-[2.5rem]
+                    min-[820px]:text-[2.5rem]
+                    min-[1024px]:text-[2.5rem]
                     '>About Me</p>
                 </div>
 
