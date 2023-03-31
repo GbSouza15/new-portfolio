@@ -38,7 +38,8 @@ export function BodyMain() {
                 text-[1.5rem]
                 text-center
                 mt-[2.5rem]
-                min-[820px]:text-[2.5rem] min-[1024px]:text-[2.5rem]'>MY SERVICES</p>
+                min-[820px]:text-[2.5rem] min-[1024px]:text-[2.5rem]
+                min-[1024px]:mt-[5rem]'>MY SERVICES</p>
 
                 <div className='
                 flex
@@ -50,7 +51,12 @@ export function BodyMain() {
                 text-center
                 rounded-[.5rem]
                 max-[820px]:text-[1.5rem]
-                max-[820px]:mx-[4rem]'>
+                max-[820px]:mx-[4rem]
+                min-[1024px]:flex
+                min-[1024px]:flex-row
+                min-[1024px]:justify-center
+                min-[1024px]:mt-[4rem]
+                '>
 
                     <div className='
                     border-[1px]
@@ -61,12 +67,16 @@ export function BodyMain() {
                     justify-center
                     p-5
                     gap-2
+                    min-[1024px]:flex-col
+                    min-[1024px]:w-[18rem]
+                    bg-[#171717]
+                    hover:bg-textColorSecondary hover:text-[#171717] transition duration-300
                     '>
                         <i className="
                         fa-solid
                         fa-globe
-                        "></i>
-                        <p>
+                        min-[1024px]:text-[3rem]"></i>
+                        <p className='p-1 min-[1024px]:text-[1.5rem]'>
                         Web Development
                         </p>
                     </div>
@@ -79,11 +89,16 @@ export function BodyMain() {
                     items-center
                     justify-center
                     p-5
-                    gap-2'>
+                    gap-2
+                    min-[1024px]:flex-col
+                    min-[1024px]:w-[18rem]
+                    bg-[#171717]
+                    hover:bg-textColorSecondary hover:text-[#171717] transition duration-300'>
                         <i className="
                         fa-solid
-                        fa-mobile-screen"></i>
-                        <p className='p-1'>
+                        fa-mobile-screen
+                        min-[1024px]:text-[3rem]"></i>
+                        <p className='p-1 min-[1024px]:text-[1.5rem]'>
                         Mobile First
                         </p>
                     </div>
@@ -96,11 +111,16 @@ export function BodyMain() {
                     items-center
                     justify-center
                     p-5
-                    gap-2'>
+                    gap-2
+                    min-[1024px]:flex-col
+                    min-[1024px]:w-[18rem]
+                    bg-[#171717]
+                    hover:bg-textColorSecondary hover:text-[#171717] transition duration-300'>
                         <i className="
                         fa-brands
-                        fa-medapps"></i>
-                        <p className='p-1'>
+                        fa-medapps
+                        min-[1024px]:text-[3rem]"></i>
+                        <p className='p-1 min-[1024px]:text-[1.5rem]'>
                             Web Design
                         </p>
                     </div>
@@ -113,12 +133,17 @@ export function BodyMain() {
                     items-center
                     justify-center
                     p-5
-                    gap-2'>
+                    gap-2
+                    min-[1024px]:flex-col
+                    min-[1024px]:w-[18rem]
+                    bg-[#171717]
+                    hover:bg-textColorSecondary hover:text-[#171717] transition duration-300'>
                         <i className="
                         fa-solid
-                        fa-gear"></i>
-                        <p className='p-1'>
-                            Maintenance and Support
+                        fa-gear
+                        min-[1024px]:text-[3rem]"></i>
+                        <p className='p-1 min-[1024px]:text-[1.5rem]'>
+                            Maintenance
                         </p>
                     </div>
                 </div>
@@ -144,7 +169,10 @@ export function BodyMain() {
                 text-center
                 rounded-[.5rem]
                 max-[820px]:text-[1.5rem]
-                max-[820px]:mx-[4rem]'>
+                max-[820px]:mx-[4rem]
+                min-[1024px]:flex-row
+                min-[1024px]:justify-center
+                min-[1024px]:mt-[4rem]'>
                     <div className='flex
                     p-[1.5rem]
                     border-[1px]
@@ -153,11 +181,15 @@ export function BodyMain() {
                     items-center
                     justify-center
                     gap-2
-                    text-[#2CA1C0]'>
+                    text-[#2CA1C0]
+                    min-[1024px]:flex-col
+                    min-[1024px]:w-[18rem]
+                    bg-[#171717]
+                    hover:bg-[#2CA1C0] hover:text-[#171717] transition duration-300'>
                         <i className="fa-brands
                         fa-react
-                        fa-xl"></i>
-                        <p>REACT</p>
+                        min-[1024px]:text-[3rem]"></i>
+                        <p className='p-1 min-[1024px]:text-[1.5rem]'>REACT</p>
                     </div>
 
                     <div className='flex
@@ -168,29 +200,16 @@ export function BodyMain() {
                     items-center
                     justify-center
                     gap-2
-                    text-textColorSecondary'>
+                    text-textColorSecondary
+                    min-[1024px]:flex-col
+                    min-[1024px]:w-[18rem]
+                    bg-[#171717]
+                    hover:bg-textColorSecondary hover:text-[#171717] transition duration-300'>
                         <i className="
                         fa-brands
                         fa-sass
-                        fa-xl"></i>
-                        <p>SASS</p>
-                    </div>
-
-                    <div className='
-                    flex
-                    p-[1.5rem]
-                    border-[1px]
-                    border-solid
-                    rounded-[.5rem]
-                     items-center
-                     justify-center
-                     gap-2
-                     text-[#3B7CDF]'>
-                        <i className="
-                        fa-brands
-                        fa-css3-alt
-                        fa-xl"></i>
-                        <p>CSS</p>
+                        min-[1024px]:text-[3rem]"></i>
+                        <p className='p-1 min-[1024px]:text-[1.5rem]'>SASS</p>
                     </div>
 
                     <div className='
@@ -202,12 +221,37 @@ export function BodyMain() {
                     items-center
                     justify-center
                     gap-2
-                    text-[#FD7D21]'>
+                    text-[#3B7CDF]
+                    min-[1024px]:flex-col
+                    min-[1024px]:w-[18rem]
+                    bg-[#171717]
+                    hover:bg-[#3B7CDF] hover:text-[#171717] transition duration-300'>
+                        <i className="
+                        fa-brands
+                        fa-css3-alt
+                        min-[1024px]:text-[3rem]"></i>
+                        <p className='p-1 min-[1024px]:text-[1.5rem]'>CSS</p>
+                    </div>
+
+                    <div className='
+                    flex
+                    p-[1.5rem]
+                    border-[1px]
+                    border-solid
+                    rounded-[.5rem]
+                    items-center
+                    justify-center
+                    gap-2
+                    text-[#FD7D21]
+                    min-[1024px]:flex-col
+                    min-[1024px]:w-[18rem]
+                    bg-[#171717]
+                    hover:bg-[#FD7D21] hover:text-[#171717] transition duration-300'>
                         <i className="
                         fa-brands
                         fa-html5
-                        fa-xl"></i>
-                        <p>HTML</p>
+                        min-[1024px]:text-[3rem]"></i>
+                        <p className='p-1 min-[1024px]:text-[1.5rem]'>HTML</p>
                     </div>
                 </div>
 
@@ -235,6 +279,10 @@ export function BodyMain() {
                 items-center
                 gap-y-5
                 max-[820px]:text-[1.5rem]
+                min-[1024px]:flex-row
+                min-[1024px]:items-center
+                min-[1024px]:gap-2
+                min-[1024px]:mt-[4rem]
                 '>
                     <li className='
                     flex
@@ -247,6 +295,9 @@ export function BodyMain() {
 
                     w-[22rem]
                     max-[820px]:w-[26rem]
+                    min-[1024px]:w-[25rem]
+                    min-[1024px]:h-[18rem]
+                    min-[1024px]:justify-center
                     '>
                         <div className='
                         flex
@@ -257,8 +308,10 @@ export function BodyMain() {
                         </div>
                         <img className='
                         w-[20rem]
+                        min-[1024px]:h-[12rem]
                         rounded-[.5rem]
                         max-[820px]:w-[30rem]
+
                         ' src={ImgGitApi}></img>
                     </li>
                     <li className='
@@ -270,7 +323,10 @@ export function BodyMain() {
                     rounded-[.5rem]
                     p-[1rem]
                     w-[22rem]
-                    max-[820px]:w-[26rem]'>
+                    max-[820px]:w-[26rem]
+                     min-[1024px]:w-[25rem]
+                    min-[1024px]:h-[18rem]
+                    min-[1024px]:justify-center'>
                         <div className='
                         flex
                         items-center
@@ -293,7 +349,10 @@ export function BodyMain() {
                     rounded-[.5rem]
                     p-[1rem]
                     w-[22rem]
-                    max-[820px]:w-[26rem]'>
+                    max-[820px]:w-[26rem]
+                     min-[1024px]:w-[25rem]
+                    min-[1024px]:h-[18rem]
+                    min-[1024px]:justify-center'>
                         <div className='
                         flex
                         items-center
@@ -330,13 +389,17 @@ export function BodyMain() {
                 mt-[2rem]
                 max-[820px]:gap-[5rem]
                 max-[820px]:text-[1.3rem]
-                max-[820px]:mt-[3rem]'>
-                    <img src={imgLogo} className='w-[4rem] h-[4rem] rounded-[50%] max-[820px]:w-[8rem] max-[820px]:h-[8rem]'></img>
+                max-[820px]:mt-[3rem]
+                min-[1024px]:gap-[12rem]
+                min-[1024px]:mt-[4rem]'>
+                    <img src={imgLogo} className='w-[4rem] h-[4rem] rounded-[50%] max-[820px]:w-[8rem] max-[820px]:h-[8rem] min-[1024px]:w-[12rem] min-[1024px]:h-[12rem]'></img>
 
                     <div className='
                     text-justify
                     w-[12rem]
                     max-[820px]:w-[20rem]
+                    min-[1024px]:text-[1.4rem]
+                    min-[1024px]:w-[35rem]
                     '>
                         <p>
                             Meu nome é <strong className='text-textColorSecondary'> Gabriel Souza </strong>e tenho 19 anos. Sou programador <strong className='text-textColorSecondary'> front-end</strong>, apaixonado por tecnologia.

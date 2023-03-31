@@ -9,7 +9,7 @@ export function Nav() {
                 </button>
 
                 <div>
-                    <ul className='flex gap-5 max-[1023px]:hidden'>
+                    <ul className='flex gap-[5rem] max-[1023px]:hidden'>
                         <li>SERVICES</li>
                         <li>SKILLS</li>
                         <li>PROJECTS</li>
