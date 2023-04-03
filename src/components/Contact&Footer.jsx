@@ -13,9 +13,9 @@ export function Contact() {
                 rounded-bl-[3rem]
                  rounded-br-[3rem]
                  mt-[2rem]'>
-                    <h1 className='text-[1.5rem]
+                    <h1 id='contact' className='text-[1.5rem]
                     text-center
-                     mt-[1.8rem] max-[820px]:text-[2rem] min-[1024px]:text-[2rem]'>Let's Discuss Your Ideas</h1>
+                     mt-[1.8rem] min-[820px]:text-[2rem] min-[1024px]:text-[2rem]'>Let's Discuss Your Ideas</h1>
 
                     <ul className='flex
                     justify-center

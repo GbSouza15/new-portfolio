@@ -33,7 +33,7 @@ export function BodyMain() {
             flex-col
             mt-[2rem]
             text-textColorPrimary'>
-                <p className='
+                <p id='myServices' className='
                 text-gray-400
                 text-[1.5rem]
                 text-center
@@ -154,7 +154,7 @@ export function BodyMain() {
             my-skills
             mt-[6rem]
             text-textColorPrimary'>
-                <p className='
+                <p id='mySkills' className='
                 text-[1.5rem]
                 text-center
                 mt-[2.5rem]
@@ -264,7 +264,7 @@ export function BodyMain() {
             flex-col
             items-center
             text-textColorPrimary'>
-                <p className='
+                <p id='myProjects' className='
                 text-[1.5rem]
                 text-center
                 min-[820px]:text-[2.5rem]
@@ -278,8 +278,8 @@ export function BodyMain() {
                 mt-[2rem]
                 items-center
                 gap-y-5
-                max-[820px]:text-[1.5rem]
-                min-[1024px]:flex-row
+                min-[820px]:text-[1.5rem]
+                min-[1224px]:flex-row
                 min-[1024px]:items-center
                 min-[1024px]:gap-2
                 min-[1024px]:mt-[4rem]
@@ -294,7 +294,7 @@ export function BodyMain() {
                     p-[1rem]
 
                     w-[22rem]
-                    max-[820px]:w-[26rem]
+                    min-[820px]:w-[26rem]
                     min-[1024px]:w-[25rem]
                     min-[1024px]:h-[18rem]
                     min-[1024px]:justify-center
@@ -323,7 +323,7 @@ export function BodyMain() {
                     rounded-[.5rem]
                     p-[1rem]
                     w-[22rem]
-                    max-[820px]:w-[26rem]
+                    min-[820px]:w-[26rem]
                      min-[1024px]:w-[25rem]
                     min-[1024px]:h-[18rem]
                     min-[1024px]:justify-center'>
@@ -349,7 +349,7 @@ export function BodyMain() {
                     rounded-[.5rem]
                     p-[1rem]
                     w-[22rem]
-                    max-[820px]:w-[26rem]
+                    min-[820px]:w-[26rem]
                      min-[1024px]:w-[25rem]
                     min-[1024px]:h-[18rem]
                     min-[1024px]:justify-center'>
@@ -374,7 +374,7 @@ export function BodyMain() {
             text-textColorPrimary'>
 
                 <div className='mt-[6rem]'>
-                    <p className='
+                    <p id='about' className='
                     text-[1.5rem]
                     text-center
                     min-[820px]:text-[2.5rem]
@@ -387,17 +387,18 @@ export function BodyMain() {
                 justify-center
                 gap-[2rem]
                 mt-[2rem]
-                max-[820px]:gap-[5rem]
-                max-[820px]:text-[1.3rem]
-                max-[820px]:mt-[3rem]
+                min-[820px]:gap-[5rem]
+                min-[820px]:text-[1.3rem]
+                min-[820px]:mt-[3rem]
                 min-[1024px]:gap-[12rem]
                 min-[1024px]:mt-[4rem]'>
-                    <img src={imgLogo} className='w-[4rem] h-[4rem] rounded-[50%] max-[820px]:w-[8rem] max-[820px]:h-[8rem] min-[1024px]:w-[12rem] min-[1024px]:h-[12rem]'></img>
+                    <img src={imgLogo} className='w-[4rem] h-[4rem] rounded-[50%] min-[820px]:w-[8rem] min-[820px]:h-[8rem] min-[1024px]:w-[12rem] min-[1024px]:h-[12rem]'></img>
 
                     <div className='
+                    text-[1rem]
                     text-justify
-                    w-[12rem]
-                    max-[820px]:w-[20rem]
+                    w-[10rem]
+                    min-[820px]:w-[20rem]
                     min-[1024px]:text-[1.4rem]
                     min-[1024px]:w-[35rem]
                     '>
